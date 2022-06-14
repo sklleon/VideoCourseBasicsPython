@@ -69,5 +69,92 @@ for letter in frend:  # Перебор строки
 comm('=', 30)
 for role in roles:  # Переборка кортежа
     print(role)
+
+comm('=+', 50)
+numbers = range(10)
+print(list(numbers))
+print(type(numbers))
+
+comm('=', 30)
+winners = ['max', 'leo', 'juliay']
+
+# простой перебор
+for win in winners:
+    print(win)
+
+# используем range
+for i in range(len(winners)):
+    print(i)
+    print(winners[i])
+    print(f'{i + 1}) {winners[i]}')
 comm('=+', 50)
 
+friendnd = {
+    'name': 'max',
+    'age': '18'
+}
+print(type(friendnd))
+print(friendnd)
+print(friendnd['age'])  # Добавляем элемент в словарь
+friendnd['car'] = 'BMW'
+print(friendnd)
+# del friendnd['car']  # удаляем элемент в словаре
+# print(friendnd)
+if 'name' in friendnd:
+    print('Да в словаре есть реквизит "name".')
+
+comm('-', 25)  # по ключам
+for key in friendnd.keys():
+    print(key)
+    print(friendnd[key])
+for key in friendnd:
+    print(key)
+    print(friendnd[key])
+
+comm('-', 25)  # по значениеям
+for val in friendnd.values():
+    print(val)
+
+comm('-', 25)  # пары ключ и значения
+for item in friendnd.items():
+    print(item)
+
+for key, val in friendnd.items():
+    print(f'{key} {val}')
+
+comm('=+', 50)  # Множество
+cities = ['Moscow', 'New Yourk', 'Las Vegas', 'Moscow', 'Paris', 'Paris']
+print(type(cities))
+print(cities)
+cities = set(cities)
+print(type(cities))
+print(cities)
+cities = {'Moscow', 'New Yourk', 'Las Vegas', 'Paris'}
+print(cities)
+
+comm('-', 25)  # Действия со множеством
+cities.add('Burma')
+print(cities)
+cities.remove('Moscow')
+print(cities)
+print(len(cities))
+print('Paris' in cities)
+print('Uzbekistan' in cities)
+for city in cities:
+    print(city)
+
+comm('-', 25)  # операции со множеством
+# Семейнаяара собирается в отпуск
+# каждый из супругов собирает в поездку вещи
+# макс взял эти вещи
+max_things = {'Телефон', 'Бритва', 'Шорты', 'Рубашка', 'Майка'}
+# Катя вот эти
+kate_things = {'Телефон', 'Шорты', 'Зонтик', 'Крем', 'Помада', 'Фен', 'купальник'}
+# Какие вещи взяли супруги ?
+print(max_things | kate_things)
+# Какие вещи повторяються ?
+print(max_things & kate_things)
+# Какие вещи взял макс но не взяла катя ?
+print(max_things - kate_things)
+# Какие вещи взяла катя но не взял макс ?
+print(kate_things - max_things)
