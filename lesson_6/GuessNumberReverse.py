@@ -10,11 +10,26 @@
 # `15 # 35 # 96 # <  # 37 # 74 # < # 52 # < # 42 # =`
 #     Примечание: Знаки “=”, “>” и “<” пользователь вводит с клавиатуры для общения с компьютером. Вы можете использовать этот способ или придумать свой.
 
+import random
+
+min_number = 1
+max_number = 100
+result = None
+count = 0
+
 print('Загадайте число от 1 до 100 в уме или запишите его на листке бумаги')
 start = input('как будите готовы нажмите на клавишу (Enter): ')
-number = None
-key = None
-while number != '=':
-    if key == '>':
 
-    elif key == '<':
+while result != '=':
+    count += 1
+    number = random.randint(min_number, max_number)
+    print(number)
+    print(
+        'Если компьютер угадал то введите знак (=) \n или если надо число больше (>) \n или если надо число меньше (<)\n')
+    result = input('Ждем Вашего ответа: ')
+
+    if result == '>':
+        min_number = number + 1
+    elif result == '<':
+        max_number = number - 1
+print(f'Ура компьютер угадал c {count} попытки!')
