@@ -1,10 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="54954de3-5644-452f-ae61-aa06390e4b16" name="Changes" comment="15-06-22">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lesson_6/lesson_6_1.py" beforeDir="false" afterPath="$PROJECT_DIR$/lesson_6/GuessNumberReverse.py" afterDir="false" />
-    </list>
+    <list default="true" id="54954de3-5644-452f-ae61-aa06390e4b16" name="Changes" comment="15-06-22" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
