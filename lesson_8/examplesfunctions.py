@@ -90,3 +90,23 @@ def si_count(city):
 
 print(sorted(sities, key=si_count))
 print(sorted(sities, key=si_count, reverse=True))
+print(sorted(sities, key=lambda city: city[2]))
+
+print(comm())
+
+print(filter(is_even, numbers))
+print(list(filter(is_even, numbers)))
+print(list(filter(lambda х: len(х) > 4, name)))
+print(list(filter(lambda х: len(х) == 3, name)))
+print(list(filter(lambda х: len(х) > 5, name)))
+
+print(comm())
+
+spisok = (1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20)
+# получить список квадратов чисел
+print(list(map(lambda x: x**2, spisok)))
+# привести числа к строке
+print(list(map(lambda x: str(x), spisok)))
+
+
+print(comm())
