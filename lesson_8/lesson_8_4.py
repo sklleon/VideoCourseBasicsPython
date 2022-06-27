@@ -7,16 +7,23 @@
 # Примечание. Функция номер 2 используется внутри функции номер 1 для вычисления урона и вычитания его из здоровья персонажа.
 
 player_name = input('Введите имя игрока: ')
-player = {'name': player_name, 'health': 100, 'damage': 50}
+player = {'name': player_name, 'health': 100, 'damage': 50, 'armor': 1.2}
 
 enemy_name = input('Введите имя врага: ')
-enamy = {'name': enemy_name, 'health': 50, 'damage': 30}
+enamy = {'name': enemy_name, 'health': 50, 'damage': 30, 'armor': 1}
+
 
 def attack(unit, target):
-    target['health'] -= unit['damage']
+    damage = get_damage(unit['damage'], target['armor'])
+    target['health'] -= damage
 
-attack(player,enamy)
+
+def get_damage(damage, armor):
+    return damage / armor
+
+
+attack(player, enamy)
 print(enamy)
 
-attack(enamy,player)
+attack(enamy, player)
 print(player)
