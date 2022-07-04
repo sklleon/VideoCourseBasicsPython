@@ -2,7 +2,8 @@
 # В нем создайте функцию создающую директории от dir_1 до dir_9 в папке из которой запущен данный код.
 # Затем создайте вторую функцию удаляющую эти папки. Проверьте работу функций в этом же модуле.
 
-import sys, os
+import os
+
 
 def new_folder():
     for i in range(1, 10):
@@ -12,6 +13,7 @@ def new_folder():
 def del_folders():
     for i in range(1, 9):
         os.rmdir(f'dir_{i}')
+
 
 print('Создаю !')
 new_folder()
