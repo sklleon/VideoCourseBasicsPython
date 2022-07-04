@@ -2,14 +2,18 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="b79e3837-a3eb-4f07-8cfb-6ca8be59272b" name="Changes" comment="01-07-22">
-      <change afterPath="$PROJECT_DIR$/lesson_10/firstmodul.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lesson_10/folderb/modb.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lesson_10/index.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lesson_10/moda.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lesson_10/modc.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lesson_10/hopital/doctors/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lesson_10/hopital/doctors/nurses.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lesson_10/hopital/doctors/surgeons.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lesson_10/hopital/h.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lesson_10/hopital/patients/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lesson_10/hopital/patients/index.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lesson_10/main.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lesson_10/os_ex.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lesson_10/os_sys.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lesson_10/lesson_10_1.py" beforeDir="false" afterPath="$PROJECT_DIR$/lesson_10/lesson_10_1.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lesson_10/nworkbook.py" beforeDir="false" afterPath="$PROJECT_DIR$/lesson_10/nworkbook.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lesson_10/firstmodul.py" beforeDir="false" afterPath="$PROJECT_DIR$/lesson_10/hopital/__init__.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lesson_10/modc.py" beforeDir="false" afterPath="$PROJECT_DIR$/lesson_10/modc.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -54,14 +58,21 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "last_opened_file_path": "C:/Users/l.sklyarevskiy/PycharmProjects/VideoCourseBasicsPython"
   }
-}</component>
-  <component name="RunManager" selected="Python.index">
-    <configuration name="firstmodul" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+}]]></component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\l.sklyarevskiy\PycharmProjects\VideoCourseBasicsPython" />
+      <recent name="C:\Users\l.sklyarevskiy\PycharmProjects\VideoCourseBasicsPython\lesson_10" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Python.sys_ex">
+    <configuration name="index (1)" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="VideoCourseBasicsPython" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -69,11 +80,11 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/lesson_10" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/lesson_10/hopital/patients" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/lesson_10/firstmodul.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/lesson_10/hopital/patients/index.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -82,7 +93,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="index" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="main" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="VideoCourseBasicsPython" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -94,7 +105,7 @@
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/lesson_10/index.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/lesson_10/main.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -103,7 +114,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="lesson_10_1" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="os_ex" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="VideoCourseBasicsPython" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -115,7 +126,7 @@
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/lesson_10/lesson_10_1.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/lesson_10/os_ex.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -124,7 +135,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="modc" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="surgeons" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="VideoCourseBasicsPython" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -132,11 +143,11 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/lesson_10" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/lesson_10/hopital/doctors" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/lesson_10/modc.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/lesson_10/hopital/doctors/surgeons.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -145,7 +156,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="nworkbook" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="sys_ex" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="VideoCourseBasicsPython" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -157,7 +168,7 @@
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/lesson_10/nworkbook.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/lesson_10/sys_ex.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -168,11 +179,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Python.index" />
-        <item itemvalue="Python.modc" />
-        <item itemvalue="Python.firstmodul" />
-        <item itemvalue="Python.nworkbook" />
-        <item itemvalue="Python.lesson_10_1" />
+        <item itemvalue="Python.sys_ex" />
+        <item itemvalue="Python.os_ex" />
+        <item itemvalue="Python.main" />
+        <item itemvalue="Python.index (1)" />
+        <item itemvalue="Python.surgeons" />
       </list>
     </recent_temporary>
   </component>
