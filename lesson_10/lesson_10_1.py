@@ -11,11 +11,12 @@ def new_folder():
 
 
 def del_folders():
-    for i in range(1, 9):
+    for i in range(1, 10):
         os.rmdir(f'dir_{i}')
 
 
-print('Создаю !')
-new_folder()
-print('Удаляю !')
-del_folders()
+if __name__ == '__main__':
+    print('Создаю !')
+    # new_folder()
+    print('Удаляю !')
+    del_folders()
